@@ -95,7 +95,7 @@ for n in others:
             + "  <p>Files in this folder. The <code>INTENT.md</code> records why it is built the way it is;\n"
               '     <a href="../">back to the demos</a>.</p>\n'
             + f'  <ul class="files">\n{rows}\n  </ul>')
-    (d / "index.html").write_text(page(f"{n} — equinor/skills", body))
+    (d / "index.html").write_text(page(f"{n} — equinor/design-engineering-skills", body))
 
 items = "\n".join(
     f'      <li><a href="{html.escape(quote(n))}/"><b>{html.escape(ti)}</b></a>' + (f'<br><small>{html.escape(h)}</small>' if h else "") + "</li>"
@@ -103,14 +103,14 @@ items = "\n".join(
 extra = "\n".join(
     f'      <li><a href="{html.escape(quote(n))}/"><b>{html.escape(n)}</b></a>' + (f'<br><small>{html.escape(leads[n])}</small>' if leads.get(n) else "") + "</li>"
     for n in others)
-body = ("  <h1>Demos from equinor/skills</h1>\n"
+body = ("  <h1>Demos from equinor/design-engineering-skills</h1>\n"
         "  <p>Pages shown at Into Design Systems Oslo, 9 September 2026. Each folder in the\n"
         "     repository's <code>demo/</code> carries an <code>INTENT.md</code> that records why it is\n"
         "     built the way it is.</p>\n"
         f"  <ul>\n{items}\n{extra}\n  </ul>\n"
-        '  <footer>Skills: <a href="https://github.com/equinor/skills">github.com/equinor/skills</a> ·\n'
-        f'    <code>npx skills add equinor/skills --skill &lt;name&gt;</code> · built from <code>{html.escape(src)}</code></footer>')
-(root / "index.html").write_text(page("equinor/skills — demos", body))
+        '  <footer>Skills: <a href="https://github.com/equinor/design-engineering-skills">github.com/equinor/design-engineering-skills</a> ·\n'
+        f'    <code>npx skills add equinor/design-engineering-skills --skill &lt;name&gt;</code> · built from <code>{html.escape(src)}</code></footer>')
+(root / "index.html").write_text(page("equinor/design-engineering-skills — demos", body))
 print(f"index.html: {len(pages)} pages, {len(others)} folders")
 PY
 
