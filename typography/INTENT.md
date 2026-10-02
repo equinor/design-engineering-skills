@@ -254,7 +254,7 @@ The closing beat is "you can do the same". The card carries both a URL and
 the install command:
 
 ```bash
-npx skills add equinor/skills --skill typography-scale
+npx skills add equinor/design-engineering-skills --skill typography-scale
 ```
 
 The message is that the question of whether designers should code is over:

@@ -1,4 +1,4 @@
-/* Overlay demo — equinor/skills, demo/typography-overlay. Same tokens as the
+/* Overlay demo — equinor/design-engineering-skills, demo/typography-overlay. Same tokens as the
  * other demos. Inter and Equinor from the EDS CDN (raw files, no size-adjust);
  * Barlow from Google Fonts (SIL OFL). Nothing is bundled. */
 @font-face { font-family: Inter; src: url(https://cdn.eds.equinor.com/font/InterVariable.woff2) format("woff2-variations"); font-weight: 100 900; font-display: block; }
