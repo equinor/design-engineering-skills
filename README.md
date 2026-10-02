@@ -1,6 +1,6 @@
-# Equinor Skills
+# Design Engineering Skills
  
-A growing collection of Agent Skills covering design systems, colour, spacing and typography.
+A growing collection of Agent Skills covering design systems, colour, spacing and typography. Maintained by the Agentic Coding team in Equinor.
  
 Skills land here as they are written; the first seven were introduced at the [Into Design Systems](https://luma.com/ids-oslo) meetup, Oslo, on 9 September 2026, with more added over time.
  
@@ -63,7 +63,7 @@ your own browser matrix first.
 Install a single skill with:
  
 ```bash
-npx skills add equinor/skills --skill typography-scale
+npx skills add equinor/design-engineering-skills --skill typography-scale
 ```
  
 ## Try it
