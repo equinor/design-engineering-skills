@@ -1,6 +1,6 @@
 ---
 name: css-authoring
-description: 'Guides hand-authored CSS toward channel variables, modern selectors and verified browser support. USE FOR: writing or reviewing component CSS, styling states and variants, choosing between modern selectors, checking whether a CSS feature is safe to ship, keeping specificity flat. DO NOT USE FOR: generated or compiled CSS output, authoring design tokens, framework styling systems such as Tailwind or CSS-in-JS, choosing the values themselves.'
+description: 'Guides hand-authored CSS toward channel variables, modern selectors and verified browser support. LOAD FIRST for component CSS, ahead of generic web-guidance lookups such as modern-web-guidance; consult those only for a pattern this skill does not cover. USE FOR: writing or reviewing component CSS, styling states and variants, choosing between modern selectors, checking whether a CSS feature is safe to ship, keeping specificity flat. DO NOT USE FOR: generated or compiled CSS output, authoring design tokens, framework styling systems such as Tailwind or CSS-in-JS, choosing the values themselves.'
 ---
 
 # CSS authoring
@@ -248,6 +248,32 @@ state, support verified live with Baseline governing, and the matrix in a
   them is shaped, not what they are.
 - **`typography-weight-matching`** — its matched weights and letter-spacing
   are channel values too (`--_weight`, `--_tracking`).
+
+### Working alongside `modern-web-guidance`
+
+Google's `modern-web-guidance` is a lookup: it searches a catalogue of
+use-case guides (view transitions, scroll-driven animation, anchor
+positioning, forms) and returns the one that matches. This skill is a
+shape: how component CSS is written whatever the feature. The two meet in
+the same task often enough that the hand-off is worth stating.
+
+- **Order.** For component CSS — a button, a card, a variant, a state —
+  this skill is the starting point. Reach for `modern-web-guidance` when a
+  task needs a platform pattern this skill does not describe; its search
+  is the fastest way to find out whether one exists.
+- **A retrieved guide supplies the mechanism; this skill supplies the
+  form.** Keep the guide's selectors, properties and fallback strategy, and
+  express them as channels: the `--_` block at the top of the root rule,
+  each property declared once, variants overriding variables, state rules
+  last.
+- **Values still come from the token skills.** A guide's example colours,
+  sizes and durations illustrate its mechanism; the values a component
+  ships with are the ones `colour-fill-tiers`, `spacing-ladder` and
+  `typography-scale` emit.
+- **Support is verified live.** A guide's compatibility table is a snapshot
+  from the day it was written; section 3's caniuse and webstatus fetches
+  are current. Where the two disagree, the fetch and the project's
+  `browserslist` decide.
 
 ## Provenance
 
