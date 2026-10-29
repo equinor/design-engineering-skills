@@ -287,12 +287,13 @@ two-family Figma push, and auditing a committed scale — plus a routing check:
 
 ## Provenance
 
-From the EDS token rework in **`equinor/ids-meetup-oslo-26`**
-(Equinor-internal), prepared for the Into Design Systems Oslo meetup on
-9 September 2026: `src/formulas.ts` (the algorithms), `DECISIONS.md` decision 1
-(indexing the curve by step label), `build/css/typography.css` (the emitted
-scale with formulas intact) and `test/deviations.ts` (the enumerated-deviation
-discipline in section 6), all under `eds-tokens-reworked/`.
+From the token rework of the EDS contracts proof of concept (not made or
+endorsed by the EDS team), public as
+[`equinor/component-contracts`](https://github.com/equinor/component-contracts),
+prepared for the Into Design Systems Oslo meetup on 9 September 2026:
+`src/formulas.ts` (the algorithms), `build/css/typography.css` (the emitted
+scale) and `test/deviations.ts` (the deviation discipline in section 6), all
+under `packages/eds-tokens/`; step-label indexing is decision 1 in its log.
 
 Optical padding — cap height, half-leading, and landing a control on the 4px
 grid while keeping an honest line-height — derives from these values but is a

@@ -185,6 +185,7 @@ least two options, a closed status vocabulary, and public by default:
 The format is `documentation/adr/0000-template.md` in `equinor/design-system`
 (MIT), and its ADR-0001 declares the choice of MADR. The numbering rule, the
 partial-supersession status, the index and the agent-instructions pointer were
-worked out with the EDS token rework in `equinor/ids-meetup-oslo-26`
-(Equinor-internal) for the Into Design Systems Oslo meetup, 9 September 2026,
+worked out in the EDS contracts proof of concept, now public as
+[`equinor/component-contracts`](https://github.com/equinor/component-contracts)
+(a proof of concept, not made or endorsed by the EDS team), for the Into Design Systems Oslo meetup, 9 September 2026,
 after the directory's own collisions made the need visible.

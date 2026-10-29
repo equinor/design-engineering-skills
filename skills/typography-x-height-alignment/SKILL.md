@@ -288,13 +288,13 @@ check, each with the mistake it prevents:
 ## Provenance
 
 The metric conventions and the `$extensions` shape come from the EDS token
-rework in **`equinor/ids-meetup-oslo-26`**
-(Equinor-internal), prepared for the Into Design Systems Oslo meetup,
-9 September 2026:
+rework of the EDS contracts proof of concept, now public as [`equinor/component-contracts`](https://github.com/equinor/component-contracts)
+(a proof of concept, not made or endorsed by the EDS team), prepared for the
+Into Design Systems Oslo meetup, 9 September 2026:
 
 | Path | What it establishes |
 | --- | --- |
-| `eds-tokens-reworked/src/font-metrics.json` | Committed metrics with their sources, and the extraction discipline |
-| `eds-tokens-reworked/src/formulas.ts` | `xHeightCorrection()` |
-| `eds-tokens-reworked/src/build/tokens.ts` | The `derived: { expression, inputs }` extension shape |
-| `eds-tokens-reworked/DECISIONS.md` | Decision 5 — bake the correction; font size only |
+| `packages/eds-tokens/src/font-metrics.json` | Committed metrics with their sources, and the extraction discipline |
+| `packages/eds-tokens/src/formulas.ts` | `xHeightCorrection()` |
+| `packages/eds-tokens/src/build/tokens.ts` | The `derived: { expression, inputs }` extension shape |
+| Decision log (not published) | Decision 5 — bake the correction; font size only |
