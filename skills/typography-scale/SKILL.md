@@ -1,6 +1,6 @@
 ---
 name: typography-scale
-description: 'Defines, ports and reviews algorithmic typographic scales. USE FOR: building a size ramp from one base and ratio, choosing or indexing line-height curves, adding a density axis, porting the EDS 2.0 typography scale (June 2024 beta; not an official EDS skill, and the EDS team is reworking typography in the 3.0 beta tokens), emitting scale tokens, CSS, or Figma variables and text styles. DO NOT USE FOR: measuring a font or deriving an x-height correction (use typography-x-height-alignment), optical padding and control heights, choosing which typefaces to pair.'
+description: 'Defines, ports and reviews algorithmic typographic scales. USE FOR: building a size ramp from one base and ratio, choosing or indexing line-height curves, adding a density axis, porting the EDS 2.0 typography scale (June 2024 beta; not an official EDS skill, and typography has changed since in the current EDS 2.0 beta), emitting scale tokens, CSS, or Figma variables and text styles. DO NOT USE FOR: measuring a font or deriving an x-height correction (use typography-x-height-alignment), optical padding and control heights, choosing which typefaces to pair.'
 ---
 
 # Typographic scale
