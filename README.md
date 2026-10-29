@@ -1,6 +1,15 @@
 # Design Engineering Skills
  
 A growing collection of Agent Skills covering design systems, colour, spacing and typography. Maintained by the Agentic Coding team in Equinor.
+
+> **Not official EDS skills.** These skills are not made or maintained by the
+> Equinor Design System (EDS) team. They build on published EDS deliveries – the
+> EDS 2.0 colour tokens and the EDS 2.0 Spacing & Typography beta (June 2024) –
+> and on decisions in the EDS team's ADRs, with additions from an experimental
+> token rework; each skill's Provenance section says which is which. EDS is
+> reworking its tokens in the 3.0 beta, so values may differ from the current
+> EDS. For official EDS guidance, see [eds.equinor.com](https://eds.equinor.com)
+> and [equinor/design-system](https://github.com/equinor/design-system).
  
 Skills land here as they are written; the first seven were introduced at the [Into Design Systems](https://luma.com/ids-oslo) meetup, Oslo, on 9 September 2026, with more added over time.
  
@@ -15,8 +24,8 @@ Available now:
 - **[typography-weight-matching](skills/typography-weight-matching)** – match weight and letter-spacing across a font pair, and compensate for a face with no optical-size axis
 - **[spacing-ladder](skills/spacing-ladder)** – one spacing sequence read by relationship, inset proportions, and optical padding that lets a control's height emerge instead of being typed
 - **[colour-fill-tiers](skills/colour-fill-tiers)** – which fill rung an element gets: emphasis, muted or ghost for things you can press, canvas or surface for things you cannot
-- **[design-system-adr](skills/design-system-adr)** – write, check, supersede and index Architecture Decision Records in the EDS team's MADR-based format
-- **[css-authoring](skills/css-authoring)** – hand-authored component CSS the EDS way: channel variables, `data-*` variants, modern selectors, browser support verified rather than recalled
+- **[design-system-adr](skills/design-system-adr)** – write, check, supersede and index Architecture Decision Records in the MADR-based format the EDS team uses for its ADRs
+- **[css-authoring](skills/css-authoring)** – hand-authored component CSS following the EDS 2.0 component conventions (ADR-0006): channel variables, `data-*` variants, modern selectors, browser support verified rather than recalled
 
 Planned areas:
 

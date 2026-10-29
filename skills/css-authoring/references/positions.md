@@ -1,6 +1,7 @@
 # Positions this skill takes
 
-Each is a rule the EDS component emitter enforces on generated CSS, or a
+Each is a rule the component emitter in component-contracts (an
+experimental, unofficial EDS contracts project) enforces on generated CSS, or a
 measurement made while writing this skill, rather than a preference.
 
 ## 1. Channels over restated properties

@@ -1,11 +1,11 @@
 ---
 name: colour-fill-tiers
-description: 'Chooses the right fill rung for an interface element in the Equinor Design System colour ladder — emphasis, muted or ghost for things you can press, canvas or surface for things you cannot — and the state steps within a tier. USE FOR: which background a button, chip, row, tab or icon button gets at rest, hover, active and selected; whether an area is interactive or static; why a banner sits on surface and not on muted; the Energy Red rule. DO NOT USE FOR: generating a palette or its lightness ladder (a colour-palette skill), checking contrast (a colour-contrast skill), text or icon ink colours beyond the on-emphasis rule, or dark-mode generation.'
+description: 'Chooses the right fill rung for an interface element in a colour ladder derived from the Equinor Design System 2.0 colour tokens (not an official EDS skill; the tier semantics come from an experimental token rework) — emphasis, muted or ghost for things you can press, canvas or surface for things you cannot — and the state steps within a tier. USE FOR: which background a button, chip, row, tab or icon button gets at rest, hover, active and selected; whether an area is interactive or static; why a banner sits on surface and not on muted; the Energy Red rule. DO NOT USE FOR: generating a palette or its lightness ladder (a colour-palette skill), checking contrast (a colour-contrast skill), text or icon ink colours beyond the on-emphasis rule, or dark-mode generation.'
 ---
 
 # Fill tiers: which rung, and why
 
-The EDS colour ladder gives every family — accent, neutral, info, success,
+The EDS 2.0 colour ladder gives every family — accent, neutral, info, success,
 warning, danger — fifteen steps in stacking order: canvas, surface, three
 muted fills, three borders, three emphasis fills, two texts, two texts on
 emphasis (the public palette generator's `PALETTE_OVERVIEW.md` in

@@ -1,11 +1,11 @@
 ---
 name: spacing-ladder
-description: 'Applies the Equinor Design System spacing ladder: one sequence of rungs, the relationship each rung expresses (page, container, cluster, selectable, seat), inset proportions for controls (squished, squared, stretched), optical padding that makes a control''s height emerge from its label, the seat an icon takes in the label''s cap cell, and the icon gap. USE FOR: choosing a gap or padding, sizing a button, chip, input, tab or toolbar without authoring its height, placing or sizing an icon inside a control, porting the ladder to another density, emitting spacing tokens or CSS. DO NOT USE FOR: the type scale or line-heights (typography-scale), aligning running text to the baseline grid (a spacing-baseline-grid skill), colours of the controls (colour-fill-tiers).'
+description: 'Applies the EDS 2.0 spacing ladder, as released in the EDS 2.0 Spacing & Typography beta (June 2024, @equinor/eds-tokens 1.0.0-beta), read as one ladder; the EDS team is reworking spacing in the 3.0 beta tokens, and this is not an official EDS skill: one sequence of rungs, the relationship each rung expresses (page, container, cluster, selectable, seat), inset proportions for controls (squished, squared, stretched), optical padding that makes a control''s height emerge from its label, the seat an icon takes in the label''s cap cell, and the icon gap. USE FOR: choosing a gap or padding, sizing a button, chip, input, tab or toolbar without authoring its height, placing or sizing an icon inside a control, porting the ladder to another density, emitting spacing tokens or CSS. DO NOT USE FOR: the type scale or line-heights (typography-scale), aligning running text to the baseline grid (a spacing-baseline-grid skill), colours of the controls (colour-fill-tiers).'
 ---
 
 # The spacing ladder
 
-EDS spacing is one ladder, and the rule for reading it is a single idea: **the
+Read as one ladder, EDS 2.0 spacing follows a single idea: **the
 closer the relationship, the smaller the space.** A page holds sections — 24. A
 container holds children — 16. A cluster holds siblings — 12. A selectable
 holds its own label — the inset. And the closest relationship in the whole
@@ -15,7 +15,8 @@ step closer.
 The taxonomy has five levels: **page → container → cluster → selectable →
 seat**. The page / container / selectable trichotomy is Eric Singhartinger's —
 a selectable is the atom, the thing you can press: a button, a chip, a tab.
-Cluster and seat are EDS's additions, between and below.
+Cluster and seat are additions from the EDS token rework (see Provenance),
+between and below.
 
 The second idea follows from the first: **a control's height is never
 authored.** It is the label's cap height plus an inset above and below, and the
@@ -89,7 +90,7 @@ rung and a proportion for the vertical one:
 | `stretched`  | one above            | 16 / 20          | input                        |
 
 Sizes `xs`–`xl`. The proportion words are Nathan Curtis's, from *Space in
-Design Systems*; the "one rung" reading of them is EDS's. Because they are
+Design Systems*; the "one rung" reading of them comes from the EDS token rework. Because they are
 rungs, density moves them together with everything else.
 
 ## 4. Optical padding: the height emerges

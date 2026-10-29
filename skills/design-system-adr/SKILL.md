@@ -1,6 +1,6 @@
 ---
 name: design-system-adr
-description: 'Writes, checks, supersedes and indexes Architecture Decision Records in the Equinor Design System format — MADR with bullet-list metadata, per-option pros and cons, a flat Decision with Consequences and Confirmation. USE FOR: drafting an ADR from notes or a discussion, superseding or deprecating an accepted ADR, reviewing an ADR before merge, finding the next ADR number, generating the ADR index. DO NOT USE FOR: release notes, changelogs, component or API reference documentation, meeting minutes, or a convention with no alternatives (a record needs options and a choice).'
+description: 'Writes, checks, supersedes and indexes Architecture Decision Records in the format the Equinor Design System team uses for its ADRs (not an official EDS skill) — MADR with bullet-list metadata, per-option pros and cons, a flat Decision with Consequences and Confirmation. USE FOR: drafting an ADR from notes or a discussion, superseding or deprecating an accepted ADR, reviewing an ADR before merge, finding the next ADR number, generating the ADR index. DO NOT USE FOR: release notes, changelogs, component or API reference documentation, meeting minutes, or a convention with no alternatives (a record needs options and a choice).'
 ---
 
 # Architecture Decision Records
