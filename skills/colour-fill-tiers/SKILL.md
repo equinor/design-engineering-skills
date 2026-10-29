@@ -140,8 +140,9 @@ and Energy Red is refused for primary actions:
 ## Provenance
 
 The tier semantics, the ghost ladder and the static-equals-surface rule come
-from the EDS token rework in `equinor/ids-meetup-oslo-26` (Equinor-internal;
-`eds-tokens-reworked/DECISIONS.md`, the banner and fill-tier entries, and
-`DESIGN.md`'s colour table), and the Energy Red rule from its
-`eds-cli/principles/brand.md`. The ladder itself is the public EDS palette
+from the token rework of the EDS contracts proof of concept, now public as
+[`equinor/component-contracts`](https://github.com/equinor/component-contracts)
+(a proof of concept, not made or endorsed by the EDS team): `DESIGN.md`'s colour table, and the banner and fill-tier entries
+in its decision log (not published). The Energy Red rule is from its
+`packages/eds-cli/principles/brand.md`. The ladder itself is the public EDS palette
 generator in `equinor/design-system`.

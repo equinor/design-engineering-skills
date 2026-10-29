@@ -283,11 +283,13 @@ element in the label's cap cell:
 
 ## Provenance
 
-The ladder text and the cluster and seat rungs are from the EDS token rework in
-`equinor/ids-meetup-oslo-26` (Equinor-internal): `eds-cli/principles/spacing.md`,
-`eds-tokens-reworked/DECISIONS.md` ("Two spacing rungs", 2026-09-04; "Gap snap",
-2026-08-28; the optical-padding recipe) and its internal optical-padding skill,
-generated from the tokens' `$extensions`. The glyph seat is the `.icon` rule
-in `eds-contracts/build/*.css` and the one-element glyph rule in its
-`AGENTS.md`; the icon sizes are `sizing-icon-*` in
-`eds-tokens-reworked/build/css/typography.css`.
+The ladder text and the cluster and seat rungs are from the token rework of
+the EDS contracts proof of concept, now public as
+[`equinor/component-contracts`](https://github.com/equinor/component-contracts)
+(a proof of concept, not made or endorsed by the EDS team): `packages/eds-cli/principles/spacing.md`, its decision log
+("Two spacing rungs", 2026-09-04; "Gap snap", 2026-08-28; the optical-padding
+recipe; not published) and its optical-padding skill
+(`.claude/skills/optical-padding/`), generated from the tokens' `$extensions`.
+The glyph seat is the `.icon` rule in `packages/eds-contracts/build/*.css` and
+the one-element glyph rule in `packages/eds-contracts/AGENTS.md`; the icon
+sizes are `sizing-icon-*` in `packages/eds-tokens/build/css/typography.css`.

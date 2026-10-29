@@ -252,8 +252,8 @@ state, support verified live with Baseline governing, and the matrix in a
 ## Provenance
 
 The channel-variable pattern and the selector rules are the ones the component
-emitter in the EDS token rework (`equinor/ids-meetup-oslo-26`, Equinor-internal;
-not an official EDS project) enforces
+emitter in the EDS contracts proof of concept
+([`equinor/component-contracts`](https://github.com/equinor/component-contracts); a proof of concept, not made or endorsed by the EDS team) enforces
 on every generated stylesheet and checks in its harness; this skill is how
 they travel to CSS written by hand. `data-*` over modifier classes is
 ADR-0006 in `equinor/design-system` (MIT, public). The support-verification

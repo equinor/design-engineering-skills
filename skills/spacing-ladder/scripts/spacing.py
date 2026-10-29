@@ -254,7 +254,7 @@ FIXTURE = {
     "tooltip_xs_squared_sm": {"compact": 20, "comfortable": 24, "relaxed": 36},
     "strip": {"compact": 36, "comfortable": 52, "relaxed": 68},
     "icon_gap_md": {"compact": 8, "comfortable": 8, "relaxed": 10},
-    # eds-tokens-reworked build/css/typography.css --eds-sizing-icon-md per density
+    # component-contracts packages/eds-tokens/build/css/typography.css --eds-sizing-icon-md per density
     "sizing_icon": {"compact": [14, 16, 18, 20, 24, 28, 32, 37, 42, 48], "comfortable": [16, 18, 20, 24, 28, 32, 37, 42, 48, 56],
                     "relaxed": [18, 20, 24, 28, 32, 37, 42, 48, 56, 64]},
     # the md button's leading icon: (footprint = cap, glyph, margin); eds-contracts build/button.css .icon

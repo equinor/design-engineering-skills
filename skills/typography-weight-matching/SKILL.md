@@ -291,5 +291,6 @@ before it is claimed as a justification:
 
 ## Provenance
 
-Derived in the EDS token rework in **`equinor/ids-meetup-oslo-26`**
-(Equinor-internal), `eds-tokens-reworked/docs/optical-sizing.md`.
+Derived in the token rework of the EDS contracts proof of concept, now public
+as [`equinor/component-contracts`](https://github.com/equinor/component-contracts) (a proof of concept, not made or endorsed by the EDS team).
+The derivation notes themselves are not published.
