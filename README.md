@@ -4,8 +4,10 @@ A growing collection of Agent Skills covering design systems, colour, spacing an
 
 > **Not official EDS skills.** These skills are not made or maintained by the
 > Equinor Design System (EDS) team. They build on published EDS deliveries – the
-> EDS 2.0 colour tokens and the EDS 2.0 Spacing & Typography beta (June 2024) –
-> and on decisions in the EDS team's ADRs, with additions from an experimental
+> [EDS 2.0 Colour Foundation](https://equinor.slack.com/archives/CJT20H1B9/p1760610632153109)
+> (October 2025) and the
+> [EDS 2.0 Spacing & Typography beta](https://equinor.slack.com/archives/CJT20H1B9/p1718630923336759)
+> (June 2024), announced by the EDS Core Team (Equinor Slack) – and on decisions in the EDS team's ADRs, with additions from an experimental
 > token rework; each skill's Provenance section says which is which. EDS is
 > reworking its tokens in the 3.0 beta, so values may differ from the current
 > EDS. For official EDS guidance, see [eds.equinor.com](https://eds.equinor.com)
