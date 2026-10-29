@@ -10,8 +10,9 @@ A growing collection of Agent Skills covering design systems, colour, spacing an
 > (June 2024), announced by the EDS Core Team (Equinor Slack) – and on
 > decisions in the EDS team's ADRs, with additions from an experimental token
 > rework; each skill's Provenance section says which is which. EDS is
-> reworking its tokens in the 3.0 beta, so values may differ from the current
-> EDS. For official EDS guidance, see [eds.equinor.com](https://eds.equinor.com)
+> reworking its tokens in the 3.0 beta (the `3.0.0-beta` pre-releases of
+> [@equinor/eds-tokens](https://www.npmjs.com/package/@equinor/eds-tokens?activeTab=versions)),
+> so values may differ from the current EDS. For official EDS guidance, see [eds.equinor.com](https://eds.equinor.com)
 > and [equinor/design-system](https://github.com/equinor/design-system).
  
 Skills land here as they are written; the first seven were introduced at the [Into Design Systems](https://luma.com/ids-oslo) meetup, Oslo, on 9 September 2026, with more added over time.
@@ -28,7 +29,7 @@ Available now:
 - **[spacing-ladder](skills/spacing-ladder)** – one spacing sequence read by relationship, inset proportions, and optical padding that lets a control's height emerge instead of being typed
 - **[colour-fill-tiers](skills/colour-fill-tiers)** – which fill rung an element gets: emphasis, muted or ghost for things you can press, canvas or surface for things you cannot
 - **[design-system-adr](skills/design-system-adr)** – write, check, supersede and index Architecture Decision Records in the MADR-based format the EDS team uses for its ADRs
-- **[css-authoring](skills/css-authoring)** – hand-authored component CSS following the EDS 2.0 component conventions (ADR-0006): channel variables, `data-*` variants, modern selectors, browser support verified rather than recalled
+- **[css-authoring](skills/css-authoring)** – hand-authored component CSS: channel variables, `data-*` variants (ADR-0006), modern selectors, browser support verified rather than recalled
 
 Planned areas:
 
